@@ -1,326 +1,738 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-
-    <!-- Page Title -->
-    <title>Home | The Euphoria</title>
-    <!--/ Page Title -->
-
-    <meta name="author" content="Pe Themes">
-    <meta name="description" content="Interactive Portfolio Showcase Template">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="https://fonts.googleapis.com/css?family=Archivo:400,500,600,700&display=swap" rel="stylesheet">
-
-    <link href="css/plugins.css" rel="stylesheet">
-    <link href="css/entypo.css" rel="stylesheet">
-
-    <link href="style.css" rel="stylesheet">
-
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="images/favicon.png" />
-    <link rel="apple-touch-icon" href="images/favicon.png" />
-    <!--/ Favicons -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/lightbox.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <title>Liadrin - One Page Creative HTML Template </title>
 </head>
-
-<body>
-
-    <!-- Loading Text -->
-    <div class="loading-text">Loading</div>
-    <!-- Loading Text -->
-
-    <!-- Lines (Don't Touch) -->
-    <div class="lines"></div>
-    <!-- /Lines -->
-
-    <!-- Page Loader -->
-    <div class="cygni-loader">
-        <div class="counter" data-count="99">00</div>
+<body id="top" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<div class="body-overlay"></div>
+<div id="box-mobile-menu" class="box-mobile-menu">
+    <a href="javascript:void(0);" id="back-menu" class="back-menu"><i class="fa fa-angle-left"></i></a>
+    <a href="javascript:void(0);" class="close-menu">
+        <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+             class="mobile-menu__close">
+            <path d="M5.5 18.5c3-5 9.8-15.5 13-17.5M1 1c9 4.833 11.5 10 22 17.5" stroke="#fff"
+                  stroke-dasharray="50.0733642578125" style="stroke-dashoffset: 0px;"></path>
+        </svg>
+    </a>
+    <div class="box-inner"></div>
+</div>
+<header id="header" class="header">
+    <div class="main-header header-fixed">
+        <div class="container-outer">
+            <div class="row">
+                <div class="col-lg-2 col-sm-3 col-xs-7 header-logo">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img class="img-responsive" src="assets/images/logo.png" alt="logo"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-sm-9 col-xs-5 header-nav">
+                    <a class="menu-bar mobile-navigation" href="javascript:void(0)">
+                        <span class="menu-btn-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </a>
+                    <nav id="primary-navigation" class="site-navigation">
+                        <div class="main-menu-wrapper"></div>
+                        <div id="myScrollspy" class="main-navigation" data-width="991">
+                            <ul id="menu-main-menu" class="nav menu-nav clone-main-menu liadrin-nav main-menu">
+                                <li class="menu-item">
+                                    <a href="#home" class="highlighted-word__link">
+                                        <svg width="90" height="37" viewBox="0 0 279 113" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg" class="highlighted-word__svg">
+                                            <path class="path"
+                                                  d="M272.12 87.59C242.987 16.756 80.435-7.495 18.236 30.727c-77.749 47.777 207.221 97.282 235.483 48.402"
+                                                  stroke="#000"></path>
+                                        </svg>
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#about" class="highlighted-word__link">
+                                        <svg width="90" height="37" viewBox="0 0 279 113" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg" class="highlighted-word__svg">
+                                            <path class="path"
+                                                  d="M272.12 87.59C242.987 16.756 80.435-7.495 18.236 30.727c-77.749 47.777 207.221 97.282 235.483 48.402"
+                                                  stroke="#000"></path>
+                                        </svg>
+                                        About
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#portfolio" class="highlighted-word__link">
+                                        <svg width="90" height="37" viewBox="0 0 279 113" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg" class="highlighted-word__svg">
+                                            <path class="path"
+                                                  d="M272.12 87.59C242.987 16.756 80.435-7.495 18.236 30.727c-77.749 47.777 207.221 97.282 235.483 48.402"
+                                                  stroke="#000"></path>
+                                        </svg>
+                                        Work
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#service" class="highlighted-word__link">
+                                        <svg width="90" height="37" viewBox="0 0 279 113" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg" class="highlighted-word__svg">
+                                            <path class="path"
+                                                  d="M272.12 87.59C242.987 16.756 80.435-7.495 18.236 30.727c-77.749 47.777 207.221 97.282 235.483 48.402"
+                                                  stroke="#000"></path>
+                                        </svg>
+                                        service
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#blog-bg" class="highlighted-word__link">
+                                        <svg width="90" height="37" viewBox="0 0 279 113" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg" class="highlighted-word__svg">
+                                            <path class="path"
+                                                  d="M272.12 87.59C242.987 16.756 80.435-7.495 18.236 30.727c-77.749 47.777 207.221 97.282 235.483 48.402"
+                                                  stroke="#000"></path>
+                                        </svg>
+                                        Blog
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#contact" class="highlighted-word__link">
+                                        <svg width="90" height="37" viewBox="0 0 279 113" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg" class="highlighted-word__svg">
+                                            <path class="path"
+                                                  d="M272.12 87.59C242.987 16.756 80.435-7.495 18.236 30.727c-77.749 47.777 207.221 97.282 235.483 48.402"
+                                                  stroke="#000"></path>
+                                        </svg>
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- /Page Loader -->
-
-    <!-- Overlays (Don't Touch) -->
-    <div class="overlays"></div>
-    <!-- /Overlays -->
-
-    <!-- Header -->
-    <header class="site-header">
-
-        <!-- Branding -->
-        <div class="site-branding">
-            <img class="dark-logo" src="images/cygni-logo.png" alt="Site Logo">
-            <img class="light-logo" src="images/cygni-logo-light.png" alt="Site Light Logo">
+    <div id="home" class="header-banner-bg"></div>
+    <div class="header-banner">
+        <div class="banner-parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 pull-right banner-image">
+                        <img src="assets/images/parallax-banner.jpg" alt="img">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 banner-content">
+                        <h3 class="smtitle-banner">Best of my style</h3>
+                        <h1 class="title-banner">
+                                <span>Liadrin will help you feel confident with
+                                    <strong class="typewrite" data-period="2000"
+                                            data-type='["yourself","love","work"]'>
+                                    <span class="wrap"></span></strong>
+                                </span>
+                        </h1>
+                        <p class="desc-banner">Lorem ipsum dolor sit amet consectetur adipiscing elit dui
+                            tempus augue tincidunt inceptos tempor ac, tellus donec morbi nulla magna per
+                            maecenas arcu velit ornare mus ultricies. Sed malesuada nam proin ornare pulvinar
+                            libero venenatis augue felis</p>
+                        <a href="#" class="btn-banner">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- /Branding -->
-
-        <!-- Menu -->
-        <div class="site-navigation">
-
-            <!-- Menu Toggle (Don't Touch) -->
-            <div class="menu-toggle"></div>
-            <!-- /Menu Toggle -->
-
-            <!-- Menu Overlays (Don't Touch) -->
-            <div class="menu-overlays"></div>
-            <!-- Menu Overlays -->
-
-            <div class="menu-wrapper">
-
-                <!-- Navigation -->
-                <ul class="menu">
-
-                    <!-- Main Menu -->
-                    <li class="menu-item"><a href="index.html">Home</a>
-                    <li class="menu-item"><a href="about/about.html">About</a></li>
-                    <li class="menu-item"><a href="works/works.html">Works</a></li>
-                    <li class="menu-item"><a href="blog/blog.html">Journal</a></li>
-                    <li class="menu-item"><a href="contact.html">Contact</a></li>
-                    <!-- /Main Menu -->
-
-                </ul>
-                <!-- /Navigation -->
-
-            </div>
-
-            <!-- Menu Widget (Left) -->
-            <div class="menu-widget-wrapper mww-1">
-                <div class="menu-widget">
-                    <div class="menu-widget-title">
-                        THE EUPHORIA:
-                    </div>
-                    <h5>Samantha Lee</h5>
-                    <h5>hlee@brooksschool.org</h5>
-                    <h5>Noela Chung</h5>
-                    <h5>hchung@brooksschool.org</h5>
-                </div>
-            </div>
-            <!--/ Menu Widget (Left) -->
-
-            <!-- Menu Widget (Middle) -->
-            <div class="menu-widget-wrapper mww-2">
-                <div class="scrolling-button">
-                    <a href="mailto:hello@pethemes.com">Welcome to The Euphoria!</a>
-                </div>
-            </div>
-            <!--/ Menu Widget (Middle) -->
-
-            <!-- Menu Widget (Right -->
-            <div class="menu-widget-wrapper mww-3">
-                <div class="menu-widget">
-                    <ul class="widget-socials">
-                        <li><a href="#">behance.</a></li>
-                        <li><a href="#">twitter.</a></li>
-                        <li><a href="#">dribble.</a></li>
-                        <li><a href="#">instagram.</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!--/ Menu Widget (Right) -->
-
-        </div>
-        <!-- /Menu -->
-    </header>
-    <!-- /Header -->
-
-    <!-- Sıte Content -->
-    <div id="main" class="content">
-
-        <!-- Page Settings -->
-        <div class="page-settings" data-layout="light" data-header-style="dark" data-menu-layout="dark"></div>
-        <!--/ Page settings -->
-
-        <!-- Portfolio Showcase -->
-        <div class="fullscreen portfolio-showcase cygni-horizontal">
-
-            <!-- Horizontal Projects -->
-            <div class="cygni-horizontal-titles">
-                <div class="horizontal-wrapper">
-
-                    <!-- Project -->
-                    <div class="horizontal-item">
-
-                        <!-- Project Image -->
-                        <div class="horizontal-image">
-                            <video autoplay muted loop playsinline>
-                                <source src="https://cygnivideos.imfast.io/final-short.mp4">
-                            </video>
-                        </div>
-                        <!--/ Project Image -->
-
-                        <!-- Project Title -->
-                        <div class="title">Whiteboard</div>
-                        <!--/ Project Title -->
-
-                        <!-- Project Year -->
-                        <div class="year">2016</div>
-                        <!--/ Project Year -->
-
-                        <!--/ Project URL -->
-                        <a class="project-url" href="project-9.html"></a>
-                        <!--/ Project URL -->
-
-                    </div>
-                    <!--/ Project -->
-
-                    <!-- Project -->
-                    <div class="horizontal-item">
-
-                        <!-- Project Image -->
-                        <div class="horizontal-image">
-                            <img src="images/projects/gold-and-gold/bs_cov.jpg" alt="Horizontal Project Image">
-                        </div>
-                        <!--/ Project Image -->
-
-                        <!-- Project Title -->
-                        <div class="title">Magic #thegolden</div>
-                        <!--/ Project Title -->
-
-                        <!-- Project Year -->
-                        <div class="year">2019</div>
-                        <!--/ Project Year -->
-
-                        <!--/ Project URL -->
-                        <a class="project-url" href="project-10.html"></a>
-                        <!--/ Project URL -->
-
-                    </div>
-                    <!--/ Project -->
-
-
-                    <!-- Project -->
-                    <div class="horizontal-item">
-
-                        <!-- Project Image -->
-                        <div class="horizontal-image">
-                            <img src="images/projects/vanessa-claro/hor_cov.jpg" alt="Horizontal Project Image">
-                        </div>
-                        <!--/ Project Image -->
-
-                        <!-- Project Title -->
-                        <div class="title">Vanessa Claro</div>
-                        <!--/ Project Title -->
-
-                        <!-- Project Year -->
-                        <div class="year">2019</div>
-                        <!--/ Project Year -->
-
-                        <!--/ Project URL -->
-                        <a class="project-url" href="project-4.html"></a>
-                        <!--/ Project URL -->
-
-                    </div>
-                    <!--/ Project -->
-
-                    <!-- Project -->
-                    <div class="horizontal-item">
-
-                        <!-- Project Image -->
-                        <div class="horizontal-image">
-                            <img src="images/projects/nyc-22-bond/hor_cov.jpg" alt="Horizontal Project Image">
-                        </div>
-                        <!--/ Project Image -->
-
-                        <!-- Project Title -->
-                        <div class="title">NYC 22 Bond</div>
-                        <!--/ Project Title -->
-
-                        <!-- Project Year -->
-                        <div class="year">2014</div>
-                        <!--/ Project Year -->
-
-                        <!--/ Project URL -->
-                        <a class="project-url" href="project-7.html"></a>
-                        <!--/ Project URL -->
-
-                    </div>
-                    <!--/ Project -->
-
-                    <!-- Project -->
-                    <div class="horizontal-item">
-
-                        <!-- Project Image -->
-                        <div class="horizontal-image">
-                            <img src="images/projects/fleava/bs_cov.jpg" alt="Horizontal Project Image">
-                        </div>
-                        <!--/ Project Image -->
-
-                        <!-- Project Title -->
-                        <div class="title">Flavia</div>
-                        <!--/ Project Title -->
-
-                        <!-- Project Year -->
-                        <div class="year">2020</div>
-                        <!--/ Project Year -->
-
-                        <!--/ Project URL -->
-                        <a class="project-url" href="project-2.html"></a>
-                        <!--/ Project URL -->
-
-                    </div>
-                    <!--/ Project -->
-
-                    <!-- Project -->
-                    <div class="horizontal-item">
-
-                        <!-- Project Image -->
-                        <div class="horizontal-image">
-                            <img src="images/projects/juno/hor_cov.jpg" alt="Horizontal Project Image">
-                        </div>
-                        <!--/ Project Image -->
-
-                        <!-- Project Title -->
-                        <div class="title">Juno</div>
-                        <!--/ Project Title -->
-
-                        <!-- Project Year -->
-                        <div class="year">2019</div>
-                        <!--/ Project Year -->
-
-                        <!--/ Project URL -->
-                        <a class="project-url" href="project-3.html"></a>
-                        <!--/ Project URL -->
-
-                    </div>
-                    <!--/ Project -->
-
-
-                </div>
-            </div>
-            <!--/ Horizontal Projects -->
-
-            <!-- Discover Project Button -->
-            <div class="horizontal-project-link">
-                <a href="#">Discover Project</a>
-            </div>
-            <!--/ Discover Project Button -->
-
-            <!-- Showcase Elements -->
-            <div class="cygni-horizontal-images"></div>
-            <div class="horizontal-pagination">
-                <div class="horizontal-prev"><i class="icon-left-dir"></i></div>
-                <div class="horizontal-next"><i class="icon-right-dir"></i></div>
-            </div>
-            <div class="horizontal-fraction">
-                <div class="horizontal-progress"></div>
-
-            </div>
-            <!--/ Showcase Elements -->
-
-        </div>
-        <!--/ Portfolio Showcase -->
-
     </div>
-    <!--/ Site Content -->
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/jquery.smoothState.js"></script>
-    <script src="js/page-transitions.js"></script>
+</header>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="section-desc">
+                    <img src="assets/images/wave.png" alt="img">
+                    Welcome to Liadrin
+                    <span>Nullam sagittis. Vivamus laoreet. Vestibulum rutrum, mi nec vehicula, eros quam gravida nisl, id fringilla neque...</span>
+                </h2>
+                <div class="liadrin-video">
+                    <div class="video-content">
+                        <img src="assets/images/parallax-about.jpg" alt="about">
+                        <a class="btn-video" href="#" data-videosite="vimeo" data-videoid="185782885">
+                            <div class="videobox_animation circle_1"></div>
+                            <div class="videobox_animation circle_2"></div>
+                            <div class="videobox_animation circle_3"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="about-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="block-content-wrap">
+                    <div class="liadrin-skill">
+                        <p class="skill-name">Design</p>
+                        <div class="skill-bar skill-bar-90 wow slideInLeft animated">
+                            <span class="skill-count">90%</span>
+                        </div>
+                    </div>
+                    <div class="liadrin-skill">
+                        <p class="skill-name">HTML5</p>
+                        <div class="skill-bar skill-bar-85 wow slideInLeft animated">
+                            <span class="skill-count">85%</span>
+                        </div>
+                    </div>
+                    <div class="liadrin-skill">
+                        <p class="skill-name">CSS3</p>
+                        <div class="skill-bar skill-bar-95 wow slideInLeft animated">
+                            <span class="skill-count">95%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="block-content-wrap">
+                    <div class="liadrin-skill">
+                        <p class="skill-name">Angular</p>
+                        <div class="skill-bar skill-bar-85 wow slideInLeft animated">
+                            <span class="skill-count">85%</span>
+                        </div>
+                    </div>
+                    <div class="liadrin-skill">
+                        <p class="skill-name">PHP</p>
+                        <div class="skill-bar skill-bar-95 wow slideInLeft animated">
+                            <span class="skill-count">95%</span>
+                        </div>
+                    </div>
+                    <div class="liadrin-skill">
+                        <p class="skill-name">NodeJs</p>
+                        <div class="skill-bar skill-bar-90 wow slideInLeft animated">
+                            <span class="skill-count">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="section-title">
+                    Our Portfolio
+                    <span>Nullam sagittis. Vivamus laoreet. Vestibulum rutrum, mi nec vehicula, eros quam gravida nisl, id fringilla neque...</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="liadrin-portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="portfolio-item top-left col-lg-8 col-md-7">
+                    <div class="portfolio-inner">
+                        <figure class="portfolio-thumb">
+                            <img src="assets/images/portfolio1.jpg" alt="portfolio">
+                            <div class="portfolio-cate"><a href="#">Branding</a></div>
+                        </figure>
+                        <h4 class="portfolio-title"><a href="#">Hebi Agency</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-outer">
+            <div class="row">
+                <div class="portfolio-item top-right col-lg-5 col-md-5">
+                    <div class="portfolio-inner">
+                        <figure class="portfolio-thumb">
+                            <img src="assets/images/portfolio2.jpg" alt="portfolio">
+                            <div class="portfolio-cate"><a href="#">Special</a></div>
+                        </figure>
+                        <h4 class="portfolio-title"><a href="#">Komsucha</a></h4>
+                    </div>
+                </div>
+                <div class="portfolio-item bottom-left col-lg-4 col-md-5 pull-right">
+                    <div class="portfolio-inner">
+                        <h4 class="portfolio-title"><a href="#">Enchanti</a></h4>
+                        <figure class="portfolio-thumb">
+                            <img src="assets/images/portfolio3.jpg" alt="portfolio">
+                            <div class="portfolio-cate"><a href="#">Design</a></div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pull-right portfolio-item top-right">
+                    <div class="portfolio-inner">
+                        <h4 class="portfolio-title"><a href="#">Handy Circle</a></h4>
+                        <figure class="portfolio-thumb">
+                            <img src="assets/images/portfolio4.jpg" alt="portfolio">
+                            <div class="portfolio-cate"><a href="#">Graphic</a></div>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="service">
+    <div class="container-outer">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="section-title">
+                    Our Service
+                    <span>Nullam sagittis. Vivamus laoreet. Vestibulum rutrum, mi nec vehicula, eros quam gravida nisl, id fringilla neque...</span>
+                </h2>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="liadrin-service">
+                    <div class="service-info">
+                        <h4 class="service-title">Web Design</h4>
+                        <div class="service-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Donec tincidunt congue mi, eu posuere justo sodales vitae.
+                            Vivamus ullamcorper hendrerit mi.
+                        </div>
+                        <a class="service-link" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="liadrin-service">
+                    <div class="service-info">
+                        <h4 class="service-title">Brand Design</h4>
+                        <div class="service-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Donec tincidunt congue mi, eu posuere justo sodales vitae.
+                            Vivamus ullamcorper hendrerit mi.
+                        </div>
+                        <a class="service-link" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 last">
+                <div class="liadrin-service">
+                    <div class="service-info">
+                        <h4 class="service-title">Photography</h4>
+                        <div class="service-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Donec tincidunt congue mi, eu posuere justo sodales vitae.
+                            Vivamus ullamcorper hendrerit mi.
+                        </div>
+                        <a class="service-link" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="section-title">
+                    Pricing Table
+                    <span>We're a team of makers, thinkers, explorers, creators and theatre singers. We're serious about delivering great outcomes.</span>
+                </h2>
+            </div>
+            <div class="col-md-4 col-sm-12 first">
+                <div class="liadrin-pricing default">
+                    <div class="pricing-inner">
+                        <h4 class="title">
+                            <span>BASIC</span>
+                        </h4>
+                        <div class="pricing-number">
+                            20 <span class="currency">$</span>
+                        </div>
+                        <ul class="pricing-list">
+                            <li>Unlimited Bandwidth</li>
+                            <li>24 /7 Support</li>
+                            <li>Powerful Website Analytics</li>
+                            <li>Custom Domain</li>
+                            <li>Fully Integrated E-Commerce</li>
+                        </ul>
+                        <div class="liadrin-button default">
+                            <div class="button-inner">
+                                <a class="button" target=" _blank" href="#">SIGN UP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="liadrin-pricing default">
+                    <div class="pricing-inner">
+                        <span class="special"><span class="fa fa-star"></span></span>
+                        <h4 class="title">
+                            <span>PERSONAL</span>
+                        </h4>
+                        <div class="pricing-number">
+                            60 <span class="currency">$</span>
+                        </div>
+                        <ul class="pricing-list">
+                            <li>Unlimited Bandwidth</li>
+                            <li>24 /7 Support</li>
+                            <li>Powerful Website Analytics</li>
+                            <li>Custom Domain</li>
+                            <li>Fully Integrated E-Commerce</li>
+                        </ul>
+                        <div class="liadrin-button default">
+                            <div class="button-inner">
+                                <a class="button" target=" _blank" href="#">SIGN UP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 last">
+                <div class="liadrin-pricing default">
+                    <div class="pricing-inner">
+                        <h4 class="title">
+                            <span>BUSINESS</span>
+                        </h4>
+                        <div class="pricing-number">
+                            80 <span class="currency">$</span>
+                        </div>
+                        <ul class="pricing-list">
+                            <li>Unlimited Bandwidth</li>
+                            <li>24 /7 Support</li>
+                            <li>Powerful Website Analytics</li>
+                            <li>Custom Domain</li>
+                            <li>Fully Integrated E-Commerce</li>
+                        </ul>
+                        <div class="liadrin-button default">
+                            <div class="button-inner">
+                                <a class="button" target=" _blank" href="#">SIGN UP</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="blog-bg"></div>
+<div id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class=" section-title">
+                    From Our Blog
+                    <span>Nullam sagittis. Vivamus laoreet. Vestibulum rutrum, mi nec vehicula, eros quam gravida nisl, id fringilla neque...</span>
+                </h2>
+                <div class="liadrin-blog">
+                    <div class="slide-owl-carousel" data-loop="yes" data-number="3" data-navcontrol="no" data-dots="yes"
+                         data-margin="20">
+                        <div class="post-grid">
+                            <div class="post-thumb"><img src="assets/images/related-post-1.jpg" alt="blog">
+                                <div class="datebox">
+                                    <a href="#">Finance</a>
+                                </div>
+                            </div>
+                            <h2 class="post-title"><a href="#">Business Strategy Consule</a></h2>
+                            <div class="post-content"> Energistically facilitate market positioning vis-a-vis
+                                extensive niches. Competently fashion low-risk high-yield initiatives before
+                                cross-unit
+                            </div>
+                            <a href="#" class="readmore">Learn more</a>
+                        </div>
+                        <div class="post-grid">
+                            <div class="post-thumb"><img src="assets/images/related-post-2.jpg" alt="blog">
+                                <div class="datebox">
+                                    <a href="#">Business</a>
+                                </div>
+                            </div>
+                            <h2 class="post-title"><a href="#">Packaging Design for Avanaa</a></h2>
+                            <div class="post-content"> Energistically facilitate market positioning vis-a-vis
+                                extensive niches. Competently fashion low-risk high-yield initiatives before
+                                cross-unit
+                            </div>
+                            <a href="#" class="readmore">Learn more</a>
+                        </div>
+                        <div class="post-grid">
+                            <div class="post-thumb"><img src="assets/images/related-post-3.jpg" alt="blog">
+                                <div class="datebox">
+                                    <a href="#">Investment</a>
+                                </div>
+                            </div>
+                            <h2 class="post-title"><a href="#">Using laptop beside aloe vera</a></h2>
+                            <div class="post-content"> Energistically facilitate market positioning vis-a-vis
+                                extensive niches. Competently fashion low-risk high-yield initiatives before
+                                cross-unit
+                            </div>
+                            <a href="#" class="readmore">Learn more</a>
+                        </div>
+                        <div class="post-grid">
+                            <div class="post-thumb"><img src="assets/images/related-post-1.jpg" alt="blog">
+                                <div class="datebox">
+                                    <a href="#">Finance</a>
+                                </div>
+                            </div>
+                            <h2 class="post-title"><a href="#">BusinessStrategy Consule</a></h2>
+                            <div class="post-content"> Energistically facilitate market positioning vis-a-vis
+                                extensive niches. Competently fashion low-risk high-yield initiatives before
+                                cross-unit
+                            </div>
+                            <a href="#" class="readmore">Learn more</a>
+                        </div>
+                        <div class="post-grid">
+                            <div class="post-thumb"><img src="assets/images/related-post-2.jpg" alt="blog">
+                                <div class="datebox">
+                                    <a href="#">Business</a>
+                                </div>
+                            </div>
+                            <h2 class="post-title"><a href="#">Packaging Design for Avanaa</a></h2>
+                            <div class="post-content"> Energistically facilitate market positioning vis-a-vis
+                                extensive niches. Competently fashion low-risk high-yield initiatives before
+                                cross-unit
+                            </div>
+                            <a href="#" class="readmore">Learn more</a>
+                        </div>
+                        <div class="post-grid">
+                            <div class="post-thumb"><img src="assets/images/related-post-3.jpg" alt="blog">
+                                <div class="datebox">
+                                    <a href="#">Investment</a>
+                                </div>
+                            </div>
+                            <h2 class="post-title"><a href="#">Using laptop beside aloe vera</a></h2>
+                            <div class="post-content"> Energistically facilitate market positioning vis-a-vis
+                                extensive niches. Competently fashion low-risk high-yield initiatives before
+                                cross-unit
+                            </div>
+                            <a href="#" class="readmore">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2962.81 145.94"><title>wavy-line</title>
+    <path d="M111.29,960.53C78.58,960.53,52,951.47,30.4,933L35.6,927c53.21,45.41,127.9,21.7,207-3.4C307,903.1,373.63,882,430.78,899.34c18,5.49,33.51,11.8,48.5,17.9,41.84,17,74.89,30.51,127.75,8.77,22-9,41.18-22.09,59.74-34.7,26.22-17.82,53.33-36.24,89.07-44.23,63.22-14.12,124.48,6.67,183.72,26.76,71.78,24.35,139.57,47.36,209.71,12.58,20.94-10.39,37.43-21.51,53.37-32.27,40-27,71.54-48.26,141.66-36,30.82,5.38,58.15,19.56,84.57,33.28,27.55,14.29,53.58,27.8,82.87,31.85,45.91,6.34,77.37-10.71,110.68-28.76,21.29-11.53,43.3-23.46,69.83-29.47,30.29-6.87,59.69-4.79,89.89,6.35,26.79,9.89,50.87,25.27,76.37,41.54,16.9,10.79,34.38,21.94,52.61,31.25C1995,947,2052.64,920.5,2113.69,892.43c50-23,101.79-46.81,168.83-29.58,26.17,6.72,49.55,19.68,72.15,32.21,27.1,15,52.69,29.21,83.07,34,56.59,8.84,81.85-10.08,113.84-34,15.67-11.74,33.44-25,56.77-35.64,58.16-26.43,129.55,4.57,198.59,34.55,37.8,16.41,73.5,31.92,104.87,37,34.27,5.5,58.09-2.52,75-25.25l6.42,4.78c-16.27,21.89-37.41,30.2-61.73,30.21-37.11,0-81.64-19.34-127.73-39.35-67.44-29.29-137.17-59.56-192.1-34.61-22.53,10.24-39.18,22.71-55.27,34.76-26.78,20.05-50.52,37.82-92.26,37.82a178.89,178.89,0,0,1-27.61-2.29c-31.79-5-59.2-20.17-85.72-34.87-22.16-12.29-45.08-25-70.26-31.47-64.28-16.51-114.72,6.68-163.5,29.11-60.09,27.63-122.22,56.21-209.55,11.61-18.57-9.49-36.21-20.75-53.28-31.64-49.43-31.55-96.13-61.36-160.18-46.83-25.46,5.77-47,17.43-67.78,28.71-33,17.87-67.08,36.34-115.59,29.64-30.66-4.24-58.52-18.69-85.46-32.67-25.89-13.44-52.66-27.33-82.26-32.5-67-11.69-97.34,8.81-135.81,34.77-15.42,10.39-32.88,22.17-54.29,32.79-32.88,16.31-68.5,21.72-108.9,16.56-35.76-4.57-72-16.85-106.94-28.72-58.2-19.74-118.38-40.16-179.41-26.53-34.25,7.65-59.54,24.84-86.31,43-18.9,12.84-38.44,26.12-61.19,35.48-55.9,23-92,8.27-133.82-8.76-14.82-6-30.14-12.28-47.81-17.65-54.77-16.68-120.19,4.09-183.46,24.18-38.75,12.31-78.82,25-115.22,28.45Q120.22,960.53,111.29,960.53Z"
+          transform="translate(-30.4 -814.59)"></path>
+</svg>
+<div id="countup">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="liadrin-heading">
+                    <div class="title-inner">
+                        <h2 class="liadrin-title">
+                            <span class="title">Some things you may not (need to)<br>know about us</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="liadrin-counterup default">
+                    <div class="counterup-inner">
+                        <div class="icon"><span class="fa fa-smile-o"></span></div>
+                        <div class="counter-up">
+                            <span class="counter">80</span>
+                        </div>
+                        <h4 class="title">
+                            HAPPY CLIENTS</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mid">
+                <div class="liadrin-counterup default">
+                    <div class="counterup-inner">
+                        <div class="icon"><span class="fa fa-handshake-o"></span></div>
+                        <div class="counter-up">
+                            <span class="counter">7</span>
+                        </div>
+                        <h4 class="title">
+                            AWESOME PROJECT</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="liadrin-counterup default">
+                    <div class="counterup-inner">
+                        <div class="icon"><span class="fa fa-trophy"></span></div>
+                        <div class="counter-up">
+                            <span class="counter">14</span>
+                        </div>
+                        <h4 class="title">
+                            AWARD WINNER</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2962.81 145.94"><title>wavy-line</title>
+    <path d="M111.29,960.53C78.58,960.53,52,951.47,30.4,933L35.6,927c53.21,45.41,127.9,21.7,207-3.4C307,903.1,373.63,882,430.78,899.34c18,5.49,33.51,11.8,48.5,17.9,41.84,17,74.89,30.51,127.75,8.77,22-9,41.18-22.09,59.74-34.7,26.22-17.82,53.33-36.24,89.07-44.23,63.22-14.12,124.48,6.67,183.72,26.76,71.78,24.35,139.57,47.36,209.71,12.58,20.94-10.39,37.43-21.51,53.37-32.27,40-27,71.54-48.26,141.66-36,30.82,5.38,58.15,19.56,84.57,33.28,27.55,14.29,53.58,27.8,82.87,31.85,45.91,6.34,77.37-10.71,110.68-28.76,21.29-11.53,43.3-23.46,69.83-29.47,30.29-6.87,59.69-4.79,89.89,6.35,26.79,9.89,50.87,25.27,76.37,41.54,16.9,10.79,34.38,21.94,52.61,31.25C1995,947,2052.64,920.5,2113.69,892.43c50-23,101.79-46.81,168.83-29.58,26.17,6.72,49.55,19.68,72.15,32.21,27.1,15,52.69,29.21,83.07,34,56.59,8.84,81.85-10.08,113.84-34,15.67-11.74,33.44-25,56.77-35.64,58.16-26.43,129.55,4.57,198.59,34.55,37.8,16.41,73.5,31.92,104.87,37,34.27,5.5,58.09-2.52,75-25.25l6.42,4.78c-16.27,21.89-37.41,30.2-61.73,30.21-37.11,0-81.64-19.34-127.73-39.35-67.44-29.29-137.17-59.56-192.1-34.61-22.53,10.24-39.18,22.71-55.27,34.76-26.78,20.05-50.52,37.82-92.26,37.82a178.89,178.89,0,0,1-27.61-2.29c-31.79-5-59.2-20.17-85.72-34.87-22.16-12.29-45.08-25-70.26-31.47-64.28-16.51-114.72,6.68-163.5,29.11-60.09,27.63-122.22,56.21-209.55,11.61-18.57-9.49-36.21-20.75-53.28-31.64-49.43-31.55-96.13-61.36-160.18-46.83-25.46,5.77-47,17.43-67.78,28.71-33,17.87-67.08,36.34-115.59,29.64-30.66-4.24-58.52-18.69-85.46-32.67-25.89-13.44-52.66-27.33-82.26-32.5-67-11.69-97.34,8.81-135.81,34.77-15.42,10.39-32.88,22.17-54.29,32.79-32.88,16.31-68.5,21.72-108.9,16.56-35.76-4.57-72-16.85-106.94-28.72-58.2-19.74-118.38-40.16-179.41-26.53-34.25,7.65-59.54,24.84-86.31,43-18.9,12.84-38.44,26.12-61.19,35.48-55.9,23-92,8.27-133.82-8.76-14.82-6-30.14-12.28-47.81-17.65-54.77-16.68-120.19,4.09-183.46,24.18-38.75,12.31-78.82,25-115.22,28.45Q120.22,960.53,111.29,960.53Z"
+          transform="translate(-30.4 -814.59)"></path>
+</svg>
+<div id="testimonial-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <span class="quote"><span class="fa fa-quote-left"></span> </span>
+                <h2 class=" section-title">
+                    What's Clients Says?
+                    <span>Nullam sagittis. Vivamus laoreet. Vestibulum rutrum, mi nec vehicula, eros quam gravida nisl, id fringilla neque...</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-offset-2 col-sm-8">
+                <div class="liadrin-testimonial">
+                    <div class="slide-owl-carousel" data-loop="yes" data-number="1" data-navcontrol="no" data-dots="yes"
+                         data-margin="30">
+                        <div class="testimonial-item">
+                            <div class="testimonial-info">
+                                <div class="thumb"><img src="assets/images/test1.jpg" alt="testimonial"></div>
+                                <div class="intro">
+                                    <h3 class="name">
+                                        <a href="#" target="#"> Muto Yugi </a></h3>
+                                    <div class="position"> Customer</div>
+                                </div>
+                            </div>
+                            <div class="testimonial-wrap">
+                                <div class="content">Lorem ipsum was conceived as filler text, formatted in a certain
+                                    way to enable the presentation of graphic elements in documents.
+                                </div>
+                                <div class="rating rating-5"><span></span></div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-info">
+                                <div class="thumb"><img src="assets/images/test2.jpg" alt="testimonial"></div>
+                                <div class="intro">
+                                    <h3 class="name">
+                                        <a href="#" target="#"> Kaiba Seto </a></h3>
+                                    <div class="position"> Customer</div>
+                                </div>
+                            </div>
+                            <div class="testimonial-wrap">
+                                <div class="content">Lorem ipsum was conceived as filler text, formatted in a certain
+                                    way to enable the presentation of graphic elements in documents.
+                                </div>
+                                <div class="rating rating-5"><span></span></div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-info">
+                                <div class="thumb"><img src="assets/images/test3.jpg" alt="testimonial"></div>
+                                <div class="intro">
+                                    <h3 class="name">
+                                        <a href="#" target="#"> Adam Smith </a></h3>
+                                    <div class="position"> Customer</div>
+                                </div>
+                            </div>
+                            <div class="testimonial-wrap">
+                                <div class="content">Lorem ipsum was conceived as filler text, formatted in a certain
+                                    way to enable the presentation of graphic elements in documents.
+                                </div>
+                                <div class="rating rating-5"><span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="contact-info">
+                    <h2 class="section-heading">
+                        Get In Touch
+                    </h2>
+                    <p>Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat</p>
+                    <div class="contact-intro">
+                        <span class="fa fa-location-arrow"></span>
+                        <div class="contact-detail">
+                            <h4>Address</h4>
+                            <div>NY 1017 United State USA</div>
+                        </div>
+                    </div>
+                    <div class="contact-intro">
+                        <span class="fa fa-phone"></span>
+                        <div class="contact-detail">
+                            <h4>Phone</h4>
+                            <div>+55 555 645 333</div>
+                        </div>
+                    </div>
+                    <div class="contact-intro">
+                        <span class="fa fa-envelope-o"></span>
+                        <div class="contact-detail">
+                            <h4>Email</h4>
+                            <div><a href="mailto:Hello@liadrin.com">Hello@liadrin.com</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7">
+                <form class="contact-form">
+                    <div class="row">
+                        <div class="contact-name contact-input col-sm-12 col-md-6 col-lg-6">
+                            <input title="author" name="author" type="text" placeholder="Name">
+                        </div>
+                        <div class="contact-email contact-input col-sm-12 col-md-6 col-lg-6">
+                            <input title="email" name="email" type="email" placeholder="Email">
+                        </div>
+                        <div class="contact-website contact-input col-sm-12 col-md-6 col-lg-6">
+                            <input title="website" name="website" type="text" placeholder="Website">
+                        </div>
+                        <div class="contact-phone contact-input col-sm-12 col-md-6 col-lg-6">
+                            <input title="phone" name="phone" type="text" placeholder="Phone">
+                        </div>
+                        <div class="contact-message contact-input col-sm-12 col-md-12 col-lg-12">
+                            <textarea title="comment-form-comment" rows="4" placeholder="Message"></textarea>
+                        </div>
+                        <div class="contact-submit col-sm-12 col-md-12 col-lg-12 text-center">
+                            <button name="submit" class="submit" type="submit" value="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
+                <p class="paragraph-footer">
+                    © Copyright 2020 by Liadrin. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<a href="#top" class="backtotop"><i class="fa fa-angle-up"></i></a>
+<script type="text/javascript" src="assets/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/lightbox.min.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+<script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+<script type="text/javascript" src="assets/js/wow.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
+<script type="text/javascript" src="assets/js/autotype.js"></script>
+<script type="text/javascript" src="assets/js/function.js"></script>
 </body>
-
 </html>
