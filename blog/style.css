@@ -162,7 +162,8 @@ html {
 body {
     margin: 0;
     font-family: 'Archivo', sans-serif;
-    background-color: #ededed;
+    background-/*color: #ededed;*/
+color: white;   
     color: #121212
 }
 
@@ -345,7 +346,8 @@ textarea {
     /* 1 */
     margin: 0;
     /* 2 */
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     padding: 20px 0;
 }
 
@@ -397,7 +399,8 @@ button::before {
     height: 2px;
     bottom: -2px;
     right: 0;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
@@ -410,7 +413,7 @@ button::before {
 /**
  * Remove the inner border and padding in Firefox.
  */
-
+/**/
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -456,7 +459,8 @@ button:-moz-focusring,
 
 .field-wrap::after,
 .message-wrap::after {
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     -webkit-transition: all .6s ease;
     -o-transition: all .6s ease;
     transition: all .6s ease;
@@ -476,7 +480,8 @@ label {
     font-weight: 500;
     letter-spacing: 1px;
     padding: 20px 20px;
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 }
 
 input[type="text"],
@@ -549,7 +554,8 @@ textarea {
     font-weight: 500;
     letter-spacing: 1px;
     margin-left: 10px;
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 }
 
 /**
@@ -974,7 +980,8 @@ body.layout-dark .overlay {
     letter-spacing: 20px;
     font-weight: 600;
     mix-blend-mode: difference;
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -1182,7 +1189,8 @@ h5.cyg_widget-title {
 
 .lc-logo::after {
     content: "DARK";
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     position: absolute;
     top: 0;
     right: -11px;
@@ -1199,7 +1207,8 @@ h5.cyg_widget-title {
 }
 
 .lc-capt {
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     font-size: 10px;
     letter-spacing: 2px;
     opacity: .5;
@@ -1278,7 +1287,8 @@ h5.cyg_widget-title {
     left: 0;
     width: 100%;
     height: 0;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     z-index: -1;
     -webkit-transition: height .75s ease 1s;
     -o-transition: height .75s ease 1s;
@@ -1468,7 +1478,8 @@ h5.cyg_widget-title {
     width: 25%;
     height: 0;
     bottom: 0;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     z-index: auto;
     -webkit-transition: height .6s cubic-bezier(.645, .045, .355, 1);
     -o-transition: height .6s cubic-bezier(.645, .045, .355, 1);
@@ -1607,7 +1618,8 @@ h5.cyg_widget-title {
     top: unset;
     height: 100%;
     width: 25%;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     z-index: 3;
     border-right: 1px solid hsla(0, 0%, 48.6%, .2)
 }
@@ -1694,7 +1706,8 @@ h5.cyg_widget-title {
 .menu-ov {
     position: fixed;
     height: 0;
-    background: #121212;
+    /*background: #121212;*/
+    background: #edf4f4;
     -webkit-transition: all .6s cubic-bezier(.645, .045, .355, 1);
     -o-transition: all .6s cubic-bezier(.645, .045, .355, 1);
     transition: all .6s cubic-bezier(.645, .045, .355, 1);
@@ -1789,7 +1802,8 @@ h5.cyg_widget-title {
     left: 0;
     width: 0;
     overflow: hidden;
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -2070,7 +2084,8 @@ h5.cyg_widget-title {
 
 .scrolling-button a:hover {
     text-decoration: none;
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 }
 
 .menu-widget-title {
@@ -2082,7 +2097,9 @@ h5.cyg_widget-title {
 }
 
 .menu-widget h5 {
-    color: #ededed;
+    /*color: #ededed;*/
+    /*color: white;   */
+    color: black;   
     font-weight: normal;
 }
 
@@ -2117,7 +2134,8 @@ h5.cyg_widget-title {
 }
 
 .widget-socials li a {
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     position: relative;
 }
 
@@ -2195,7 +2213,8 @@ h5.cyg_widget-title {
 
 .site-header.dark-nav-active.toggle-line,
 .site-header.light .toggle-line {
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
 }
 
 .site-navigation.light .menu > li.menu-item-hover > a::before {
@@ -2459,7 +2478,8 @@ h5.cyg_widget-title {
 
 .footer-nav li a:hover {
     text-decoration: none;
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 }
 
 .has-pad-left {
@@ -2573,7 +2593,8 @@ h5.cyg_widget-title {
 
 .footer-list li a:hover {
     text-decoration: none;
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 }
 
 .footer-menu li {
@@ -2594,7 +2615,8 @@ h5.cyg_widget-title {
 }
 
 .footer-menu li a:hover {
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     text-decoration: none;
     opacity: 1;
 }
@@ -2663,7 +2685,8 @@ h5.cyg_widget-title {
     content: "";
     display: block;
     height: 1px;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     position: absolute;
     width: 0;
     -webkit-transition: all .3s cubic-bezier(0.61, 0, 0.48, 1);
@@ -3276,7 +3299,8 @@ h5.cyg_widget-title {
     content: "";
     display: block;
     width: 100%;
-    background-color: #ededed;
+    background-/*color: #ededed;*/
+color: white;   
     z-index: -1;
     height: 0;
     -webkit-transition: all .6s ease;
@@ -4405,7 +4429,8 @@ h5.cyg_widget-title {
     position: absolute;
     width: 25%;
     height: 100%;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     display: block;
     z-index: 2;
     -webkit-transition: all .8s cubic-bezier(.77, 0, .18, 1);
@@ -5333,7 +5358,8 @@ h5.cyg_widget-title {
     position: absolute;
     width: 25%;
     height: 100%;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     top: 0;
     z-index: 3;
 
@@ -5707,12 +5733,14 @@ h5.cyg_widget-title {
 }
 
 .all-projects .project:hover .title a {
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 
 }
 
 .all-projects .project.project-hidden .title a {
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     opacity: .1
 }
 
@@ -5784,7 +5812,8 @@ h5.cyg_widget-title {
     -ms-transform: translatey(10px);
     transform: translatey(10px);
     opacity: 0;
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     -webkit-transition: all .5s cubic-bezier(.25, .46, .45, .94);
     -o-transition: all .5s cubic-bezier(.25, .46, .45, .94);
     transition: all .5s cubic-bezier(.25, .46, .45, .94);
@@ -5828,7 +5857,8 @@ h5.cyg_widget-title {
 
     opacity: 0;
     visibility: hidden;
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     -webkit-transition: all .5s cubic-bezier(.25, .46, .45, .94);
     -o-transition: all .5s cubic-bezier(.25, .46, .45, .94);
     transition: all .5s cubic-bezier(.25, .46, .45, .94);
@@ -6387,12 +6417,14 @@ h5.cyg_widget-title {
 }
 
 .sticky .post-cat {
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 
 }
 
 .sticky .post-title {
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 
 }
 
@@ -6429,7 +6461,8 @@ h5.cyg_widget-title {
     padding: 50px;
     position: absolute;
     left: 0;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
 }
 
 .layout-dark .pe-prev-post,
@@ -6446,7 +6479,9 @@ h5.cyg_widget-title {
     left: 0;
     width: 0;
     height: 100%;
-    background: #121212;
+    /*background: #121212;*/
+    background: #edf4f4;
+    /*font-color: black;*/
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
@@ -6526,7 +6561,9 @@ h5.cyg_widget-title {
 .pe-prev-post:hover .np-title,
 .pe-next-post:hover .np-p,
 .pe-next-post:hover .np-title {
-    color: #ededed
+    /*color: #ededed*/
+    color: #black;
+     text-decoration: underline;
 }
 
 .layout-dark .j-back {
@@ -6660,7 +6697,8 @@ h5.cyg_widget-title {
     position: absolute;
     bottom: 0;
     width: 25%;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     height: 100%;
     z-index: -3;
     -webkit-transition: height .6s cubic-bezier(.65, .05, .36, 1);
@@ -6788,7 +6826,8 @@ h5.cyg_widget-title {
 .project-header.light .project-work,
 .project-header.light .project-meta div {
 
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 
 }
 
@@ -6805,7 +6844,8 @@ h5.cyg_widget-title {
     position: absolute;
     top: 0;
     left: 0;
-    background: #ededed;
+    /*background: #ededed;*/
+background: white;   
     z-index: -3
 }
 
@@ -6925,7 +6965,8 @@ h5.cyg_widget-title {
 .layout-dark .bs-bullets .swiper-pagination-bullet,
 .layout-dark .category span,
 .layout-dark .meta span {
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 }
 
 
@@ -7036,7 +7077,8 @@ h5.cyg_widget-title {
 
 
 .team-member-name {
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
     font-size: 19px;
     margin-bottom: 15px;
     font-weight: 600;
@@ -7841,7 +7883,8 @@ section:after {
     position: relative;
     left: 50%;
     transform: translatex(-50%);
-    color: #ededed;
+    /*color: #ededed;*/
+color: white;   
 }
 
 
